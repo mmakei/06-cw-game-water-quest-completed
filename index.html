@@ -11,12 +11,20 @@
     <h1>Water Quest</h1>
 
     <p class="game-instructions">
-      Tap the yellow jerry can as fast as you can. Safe water = life. Reach the goal before time runs out.
+      Tap the yellow jerry can to collect clean water. Avoid unsafe water. Beat the timer.
     </p>
+
+    <div class="difficulty-select">
+      <p>Select difficulty:</p>
+      <button class="mode-btn" data-mode="easy">Easy</button>
+      <button class="mode-btn" data-mode="normal">Normal</button>
+      <button class="mode-btn" data-mode="hard">Hard</button>
+    </div>
 
     <div class="stats">
       <p>Cans Collected: <span id="current-cans">0</span></p>
       <p>Time Left: <span id="timer">30</span>s</p>
+      <p>Goal: <span id="goal-display">25</span></p>
     </div>
 
     <div id="achievements" class="achievement"></div>
@@ -29,9 +37,25 @@
     </div>
 
     <p class="brand-caption">
-      This game is inspired by charity: water. The yellow can represents clean, safe water. Millions of people still have to collect water that isn’t safe to drink every day.
+      The yellow jerry can represents access to clean and safe water. Millions of people still collect unsafe water every day.
     </p>
   </div>
+
+  <footer class="cw-footer">
+    <p class="footer-headline">Learn more. Get involved.</p>
+    <p>
+      <a href="https://www.charitywater.org/" target="_blank" rel="noopener noreferrer">
+        About charity: water
+      </a>
+      |
+      <a href="https://www.charitywater.org/donate" target="_blank" rel="noopener noreferrer">
+        Donate to clean water
+      </a>
+    </p>
+    <p class="footer-note">
+      100% of public donations fund clean water projects.
+    </p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
