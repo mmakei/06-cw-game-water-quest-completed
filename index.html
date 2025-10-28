@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Water Quest</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Water Quest</h1>
+
+    <p class="game-instructions">
+      Tap the yellow jerry can as fast as you can. Safe water = life. Reach the goal before time runs out.
+    </p>
+
+    <div class="stats">
+      <p>Cans Collected: <span id="current-cans">0</span></p>
+      <p>Time Left: <span id="timer">30</span>s</p>
+    </div>
+
+    <div id="achievements" class="achievement"></div>
+
+    <div class="game-grid"></div>
+
+    <div class="controls">
+      <button id="start-game">Start Game</button>
+      <button id="reset-game" class="hidden">Reset</button>
+    </div>
+
+    <p class="brand-caption">
+      This game is inspired by charity: water. The yellow can represents clean, safe water. Millions of people still have to collect water that isn’t safe to drink every day.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
