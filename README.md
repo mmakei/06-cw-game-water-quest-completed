@@ -1,22 +1,6 @@
-# charity: water – Water Quest Game Starter
+# charity: water – Water Quest Game
 
-In this game, users tap charity: water’s signature yellow jerry cans as fast as they can to earn points. You’ll be working from a partially built version of the game. Some functionality is already provided, and your job is to complete the rest.
-
-## What’s Already Done
-
-The starter files already include:
-
-- A **heading and tagline**
-- A **start button**
-- A **game container** displaying a grid
-- A **placeholder timer and score** (not functional yet)
-- A **logo image** from charity: water
-- Working code that:
-  - Starts the game when the start button is clicked  
-  - Makes jerry cans pop up randomly
-
-## What You Need to Add
-
+In this game, users tap charity: water’s signature yellow jerry cans as fast as they can to earn points. 
 Here’s what you're required to implement to bring the game to life:
 
 ### Game Functionality
